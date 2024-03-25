@@ -1,6 +1,6 @@
 const express = require('express')
 const path = require('path')
-const app = express()
+const app = new express()
 
 const port = 3000
 
@@ -11,7 +11,38 @@ app.use(express.static('public'));
 
 app.get('/', (req, res) =>{
   res.render('pages/index' , {
-    title: 'Pirince',
+    title: 'Home pages',
+    name: 'David'
+  } )
+});
+app.get('/about', (req, res) =>{
+  res.render('pages/about' , {
+    title: 'About page',
+    name: 'David'
+  } )
+});
+app.get( '/contact',(req, res) =>{
+  res.render('pages/contact' , {
+    title: 'Contact page',
+    name: 'David'
+  } )
+});
+app.get( '/menu',(req, res) =>{
+  res.render('pages/menu' , {
+    title: 'Menu page',
+    name: 'David'
+  } )
+});
+
+app.get( '/reservation',(req, res) =>{
+  res.render('pages/reservation' , {
+    title: 'Reservation',
+    name: 'David'
+  } )
+});
+app.get( '/gallary',(req, res) =>{
+  res.render('pages/gallary' , {
+    title: 'Gallary',
     name: 'David'
   } )
 });
