@@ -1,5 +1,6 @@
-const express = require('express')
-const path = require('path')
+const express = require('express');
+const path = require('path');
+const ejs = require('ejs');
 const app = new express()
 
 const port = 3000
@@ -36,13 +37,13 @@ app.get( '/menu',(req, res) =>{
 
 app.get( '/reservation',(req, res) =>{
   res.render('pages/reservation' , {
-    title: 'Reservation',
+    title: 'Reservation page',
     name: 'David'
   } )
 });
 app.get( '/gallary',(req, res) =>{
   res.render('pages/gallary' , {
-    title: 'Gallary',
+    title: 'Gallary page',
     name: 'David'
   } )
 });
