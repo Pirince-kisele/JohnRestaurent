@@ -1,6 +1,14 @@
 body{box-sizing:border-box;margin:0;padding:0;font-family:sans-serif;background-color:#011d57;
     color:#fff;line-height:1.6;font-size:18px;
     }
+ #bgi{
+    background-image : url("https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg");
+     
+     background-size:cover;
+     background-repeat: no-repeat;
+    background-position:center;
+}
+#bgi{height:600px;width:100%;}
 h1{text-align:center;margin:0;padding:0;font-size:3em;}
 h2{font-size:1.2em;margin:0;padding:0;text-align: center}
 p{font-size: 1em;text-align:center;margin:0;padding:0;}

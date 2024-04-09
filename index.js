@@ -47,7 +47,12 @@ app.get( '/gallary',(req, res) =>{
     name: 'David'
   } )
 });
-
+app.get( '/gallarys/new',(req, res) =>{
+  res.render('pages/publish_pucture' , {
+    title: 'publish page',
+    name: 'David'
+  } )
+});
 
 
 app.listen(port, () =>{
