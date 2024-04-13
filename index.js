@@ -38,7 +38,7 @@ app.get( '/menu',(req, res) =>{
 app.get( '/reservation',(req, res) =>{
   res.render('pages/reservation' , {
     title: 'Reservation page',
-    name: 'David'
+    name: 'David' 
   } )
 });
 app.get( '/gallary',(req, res) =>{
