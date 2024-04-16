@@ -1,30 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  
   <head>
     <%- include('../layouts/head'); %>
   </head>
 
-<body>
-  <header>
-     <%- include('../layouts/nav'); %>
-    </header>
-  <section >
-   
-  </section>
+  <body>
+    <header><%- include('../layouts/nav'); %></header>
 
+    <!--header section-->
+    <section class="pt-5 bgcontact">
+      <div class="container pt-5">
+        <h1 class="text-dark text-center pt-5">Contact Us</h1>
+      </div>
+    </section>
+    <!---section with contact form-->
+    <section class="text-dark p-5">
+      <div class="container pt-5 shadow p-5" >
+        <div class="d-block text center">
+          <h2>GET IN TOUCH</h2>
+          <p>
+            <span><i class="bi bi-call text-dark mx-1"></i></span> Phone (319)
+            555-555
+          </p>
+          <p>
+            <span><i class="bi bi-email text-dark mx-1"></i></span> Email
+            liyo123@gmail.com
+          </p>
+          <p>
+            <span><i class="bi bi-location text-dark mx-1"></i></span> Address
+            123 Demo Street Waterloo, Iowa 50723
+          </p>
+        </div>
+        <form action="" class="row g-3">
+          <div class="d-flex justify-content-between align-items-center gap-3">
+            <div class="col-md-6 ">
+              <div class="mb-3">
+               <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div><div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+            </div>
+            <div class="col-md-6">
+             <div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Leave Your Message Here</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+</div>
+ Message</textarea
+              >
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
 
+    <section><%- include('../layouts/footer') %></section>
 
-
-
-
-
-
-
-
-
-
-   <%- include('../layouts/script'); %>
-    </body> 
-  
+    <%- include('../layouts/script'); %>
+  </body>
 </html>
