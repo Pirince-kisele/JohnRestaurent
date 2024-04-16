@@ -15,7 +15,7 @@
     </section>
     <!---section with contact form-->
     <section class="text-dark p-5">
-      <div class="container pt-5 shadow p-5" >
+      <div class="container pt-5 shadow p-5">
         <div class="d-block text center">
           <h2>GET IN TOUCH</h2>
           <p>
@@ -31,28 +31,57 @@
             123 Demo Street Waterloo, Iowa 50723
           </p>
         </div>
-        <form action="" class="row g-3">
+        <form action="" method="post" class="row g-3">
           <div class="d-flex justify-content-between align-items-center gap-3">
-            <div class="col-md-6 ">
+            <div class="col-md-6">
               <div class="mb-3">
-               <label for="exampleFormControlInput1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <label for="name" class="form-label"
+                  >Your Name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="name"
+                />
               </div>
               <div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-</div><div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-</div>
+                <label for="email" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="name@example.com"
+                />
+              </div>
+              <div class="mb-3 ">
+                <label for="phone" class="form-label"
+                  >Phone Number</label
+                >
+                <input
+                  type="phone"
+                  class="form-control"
+                  id="phone"
+                  placeholder="ex (390) 555 555"
+                />
+              </div>
             </div>
             <div class="col-md-6">
-             <div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Leave Your Message Here</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
-</div>
- Message</textarea
-              >
+              <div class="mb-3">
+                <label for="message" class="form-label"
+                  >Leave Your Message Here</label
+                >
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="10"
+                ></textarea>
+              </div>
+              <div class="mb-3">
+              <input class="btn btn-primary" type="submit" value="Submit">
+              </div>
             </div>
           </div>
         </form>
