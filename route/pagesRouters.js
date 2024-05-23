@@ -11,5 +11,4 @@ router.get("/contact", pagesControllers.getContact);
 router.get("/menu", pagesControllers.getMenu);
 router.get("/reservation", pagesControllers.getReservation);
 router.get("/gallary", pagesControllers.getGallary);
-router.post("/gallarys/new", pagesControllers.postGallarysNew);
 module.exports = router;

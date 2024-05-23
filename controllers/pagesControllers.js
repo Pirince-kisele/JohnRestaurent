@@ -35,9 +35,4 @@ module.exports.getGallary = (req, res) =>{
     name: "David",
   });
 }
-module.exports.postGallarysNew = (req, res) =>{
-  res.render("pages/gallarysNew", {
-    title: "Gallary page",
-    name: "David",
-  });
-}
+
