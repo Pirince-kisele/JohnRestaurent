@@ -9,6 +9,5 @@ router.get("/", pagesControllers.gethome);
 router.get("/about", pagesControllers.getAbout);
 router.get("/contact", pagesControllers.getContact);
 router.get("/menu", pagesControllers.getMenu);
-router.get("/reservation", pagesControllers.getReservation);
 router.get("/gallary", pagesControllers.getGallary);
 module.exports = router;

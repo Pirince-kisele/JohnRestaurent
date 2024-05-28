@@ -23,12 +23,7 @@ module.exports.getMenu = (req, res) =>{
     name: "David",
   });
 }
-module.exports.getReservation = (req, res) =>{
-  res.render("pages/reservation", {
-    title: "Reservation page",
-    name: "David",
-  });
-}
+
 module.exports.getGallary = (req, res) =>{
   res.render("pages/gallary", {
     title: "Gallary page",
