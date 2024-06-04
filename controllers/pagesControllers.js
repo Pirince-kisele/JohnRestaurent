@@ -1,4 +1,4 @@
-
+const items = require("../data/items")
 module.exports.gethome = (req, res) =>{
   res.render("pages/index", {
     title: "Home pages",
@@ -8,7 +8,7 @@ module.exports.gethome = (req, res) =>{
 module.exports.getContact = (req, res) => {
   res.render("pages/contact", {
     title: "Contact page",
-    name: "David",
+   
   });
 }
 module.exports.getAbout = (req, res) =>{
@@ -20,7 +20,7 @@ module.exports.getAbout = (req, res) =>{
 module.exports.getMenu = (req, res) =>{
   res.render("pages/menu", {
     title: "Menu page",
-    name: "David",
+     items: items,
   });
 }
 
